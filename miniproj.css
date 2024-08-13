@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
+    background-color: #0a1629;
+
 }
  html{
     scroll-behavior: smooth;
  }
  #portfolio{
     padding: 50px;
+    height:auto;
+    width: fit-content;
     background-color: #0a1629;
  }
  .portfolio-title{
