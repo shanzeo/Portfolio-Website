@@ -125,9 +125,11 @@
     color: #ffffff;
     opacity: 0.8;
  }
- .containbtn{
-    padding-left: 20%;
+ .containbtn {
+   margin-left: 18%;
+   padding-top: 10px;
  }
+
  .btn, .submitbtn {
     position: relative;
     width: 160px;
