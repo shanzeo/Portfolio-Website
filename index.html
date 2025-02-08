@@ -314,12 +314,20 @@
 
     <script>
         var sidemenu = document.getElementById("sidemenu");
+        var openIcon = document.querySelector('.fas.fa-bars');
+        var closeIcon = document.querySelector('.fas.fa-times');
+
 
         function openmenu() {
-            sidemenu.style.right = "0";
+            sidemenu.style.left = "0";
+            openIcon.style.display = 'none';  // Hide the open icon
+            closeIcon.style.display = 'inline-block';  // Show the close icon
         }
+
         function closemenu() {
-            sidemenu.style.right = "-200px";
+            sidemenu.style.left = "-200px";
+            openIcon.style.display = 'inline-block';  // Show the open icon
+            closeIcon.style.display = 'none';  // Hide the close icon
         }
 
     </script>
