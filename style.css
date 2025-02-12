@@ -25,11 +25,11 @@
     position: relative;
     width: 10px;
     height: 10px;
-    background: #4fc3dc;
+    background: #4fdc58;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 5px #4fc3dc44, 0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 5px #4fc3dc44, 0 0 50px #4fdc58,
+    0 0 100px #4fdc58;
     animation: animate 15s linear infinite;
     animation-duration: calc( 300s / var(--i));
  }
@@ -480,9 +480,10 @@
 
     nav ul{
         display: list-item;
+        padding-right: 25px;
         list-style: none;
         position: fixed;
-        top: 0;
+        top: 10;
         right: -200px;
         width: 120px;
         height: 100vh;
